@@ -1,7 +1,7 @@
 # docker-grafana-graphite makefile
 
 # Environment Varibles
-CONTAINER = kamon-grafana-dashboard
+CONTAINER = colonel-grafana-dashboard
 
 .PHONY: up
 
