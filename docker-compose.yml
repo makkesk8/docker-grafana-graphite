@@ -2,8 +2,8 @@ version: '2'
 services:
   grafana_graphite:
     build: .
-    image: kamon/grafana_graphite
-    container_name: kamon-grafana-dashboard
+    image: colonelbundy/grafana_graphite
+    container_name: colonel-grafana-dashboard
     ports:
       - '80:80'
       - '81:81'
